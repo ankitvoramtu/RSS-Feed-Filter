@@ -5,7 +5,7 @@ Many websites have content that is updated on an unpredictable schedule. News si
 ![Trigger Class Inheritance](http://res.cloudinary.com/dijvrdblg/image/upload/v1474087411/cesitli/files_ps06_files_trigger_inheritance_large.png)
 
 
-Consider the following example trigger configuration file:
+Consider the following example trigger configuration file (i.e. "triggers.txt"):
 
         # subject trigger named t1
         t1 SUBJECT world
