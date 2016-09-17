@@ -24,9 +24,9 @@ Consider the following example trigger configuration file (i.e. "triggers.txt"):
         ADD t1 t4
 The example file specifies that four triggers should be created, and that two of those triggers should be added to the trigger list:
 
-- A trigger that fires when a subject contains the word 'world' (t1).
+- A trigger that fires when a subject contains the word 'world' (`t1`).
 
-- A trigger that fires when the title contains the word 'Intel' and the news item contains the phrase 'New York City' somewhere (t4).
+- A trigger that fires when the title contains the word 'Intel' and the news item contains the phrase 'New York City' somewhere (`t4`).
 
 The two other triggers (t2 and t3) are created but not added to the trigger set directly. They are used as arguments for the composite AND trigger's definition (t4).
 
