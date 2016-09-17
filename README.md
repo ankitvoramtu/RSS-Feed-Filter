@@ -49,16 +49,16 @@ Each type of line is described below.
 
   - TITLE : a single word.
 
-SUBJECT : a single word.
+  - SUBJECT : a single word.
 
-SUMMARY : a single word.
+  - SUMMARY : a single word.
 
-NOT : the name of the trigger that will be NOT'd.
+  - NOT : the name of the trigger that will be NOT'd.
 
-AND : the names of the two other triggers that will be AND'd.
+  - AND : the names of the two other triggers that will be AND'd.
 
-OR : the names of the two other triggers that will be OR'd.
+  - OR : the names of the two other triggers that will be OR'd.
 
-PHRASE : a phrase.
+  - PHRASE : a phrase.
 
 - Trigger addition: A trigger definition should create a trigger and associate it with a name but should not automatically add that trigger to the running trigger list. One or more ADD lines in the .txt file will specify which triggers should be in the trigger list. An addition line begins with the ADD keyword. Following ADD are the names of one or more previously defined triggers. These triggers will be added to the the trigger list.
