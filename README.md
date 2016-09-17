@@ -47,7 +47,7 @@ Each type of line is described below.
 
 - Trigger definitions: Lines that do not begin with the keyword ADD define named triggers. The first element in a trigger definition is the name of the trigger. The name can be any combination of letters without spaces, except for "ADD". The second element of a trigger definition is a keyword (e.g., TITLE, PHRASE, etc.) that specifies the kind of trigger being defined. The remaining elements of the definition are the trigger arguments. What arguments are required depends on the trigger type:
 
-i. TITLE : a single word.
+  - TITLE : a single word.
 
 SUBJECT : a single word.
 
